@@ -27,6 +27,8 @@ void day12();
 void day13();
 void day14();
 void day15();
+void day16();
+void day24();
 
 
 #endif /* HEADERS_DAYS_HPP_ */

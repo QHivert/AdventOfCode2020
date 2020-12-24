@@ -11,6 +11,12 @@
 #include "utils.hpp"
 using namespace std;
 
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
 int main() {
 
 //	auto time1 = timerWrap(&day1);
@@ -52,8 +58,14 @@ int main() {
 //	auto time14 = timerWrap(&day14);
 //	cout << "Day 14 execution time: " << time14.count() << "ms" << endl << endl;
 
-	auto time15 = timerWrap(&day15);
-	cout << "Day 15 execution time: " << time15.count() << "ms" << endl << endl;
+//	auto time15 = timerWrap(&day15);
+//	cout << "Day 15 execution time: " << time15.count() << "ms" << endl << endl;
+
+//	auto time16 = timerWrap(&day16);
+//	cout << "Day 16 execution time: " << time16.count() << "ms" << endl << endl;
+
+	auto time24 = timerWrap(&day24);
+	cout << "Day 24 execution time: " << time24.count() << "ms" << endl << endl;
 
 	return 0;
 }
